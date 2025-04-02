@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Animal Kingdom</title>
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <style>
+    .navbar-custom { background-color: #ffc107; } /* Yellow Navbar */
+    .hero-section { background-color: #ff5722; color: white; padding: 50px 0; } /* Orange Hero */
+    .footer { background-color: #e91e63; color: white; padding: 10px 0; text-align: center; } /* Pink Footer */
+  </style>
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-light navbar-custom">
+  <div class="container">
+    <a class="navbar-brand fw-bold" href="#">Animal Kingdom</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">Wildlife</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">Gallery</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- Hero Section -->
+<header class="hero-section text-center">
+  <div class="container">
+    <h1 class="fw-bold">Explore the Animal World</h1>
+    <p>Discover fascinating creatures from all around the globe.</p>
+  </div>
+</header>
+
+<!-- Animal Cards Section -->
+<section class="container my-5">
+  <div class="row text-center">
+    <div class="col-md-4">
+      <div class="card shadow-sm">
+        <img src="leone-africano-2-750x500.jpg" class="card-img-top" alt="Lion"/>
+        <div class="card-body">
+          <h5 class="card-title">Lion</h5>
+          <p class="card-text">The king of the jungle, known for its majestic mane.</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="card shadow-sm">
+        <img src="TVR7E3Kuzg2iRhKkjZPeWk-1200-80.jpg" class="card-img-top" alt="Elephant"/>
+        <div class="card-body">
+          <h5 class="card-title">Elephant</h5>
+          <p class="card-text">The largest land animal, known for its intelligence and memory.</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="card shadow-sm">
+        <img src="Bottlenose-Dolphin-Facts-2.jpg" class="card-img-top" alt="Dolphin"/>
+        <div class="card-body">
+          <h5 class="card-title">Dolphin</h5>
+          <p class="card-text">A playful and intelligent marine mammal.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Signup Form -->
+<section class="container my-5">
+  <h3 class="text-center fw-bold">Join Our Wildlife Adventure</h3>
+  <div class="row justify-content-center">
+    <div class="col-md-6">
+      <form>
+        <div class="mb-3">
+          <label class="form-label">Full Name</label>
+          <input type="text" class="form-control" placeholder="Enter your name">
+        </div>
+        <div class="mb-3">
+          <label class="form-label">Email Address</label>
+          <input type="email" class="form-control" placeholder="Enter your email">
+        </div>
+        <div class="mb-3">
+          <label class="form-label">Favorite Animal</label>
+          <input type="text" class="form-control" placeholder="Enter your favorite animal">
+        </div>
+        <button type="submit" class="btn btn-primary w-100">Sign Up</button>
+      </form>
+    </div>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer class="footer">
+  <p>© 2024 Amazing Animals | Explore the Wild</p>
+</footer>
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
